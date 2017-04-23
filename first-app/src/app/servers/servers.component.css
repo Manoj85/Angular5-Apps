@@ -1,0 +1,10 @@
+.container {
+  background: lightgreen;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+
+.heading {
+  font-weight: bold;
+  color: dodgerblue;
+}

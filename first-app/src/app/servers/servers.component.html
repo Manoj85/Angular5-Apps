@@ -1,4 +1,16 @@
 <div class="btn btn-primary" [attr.disabled]="!allowNewServer">Add Server</div>
-    <pre>{{allowNewServer}}</pre>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4">
+      <p class="heading">String Interpolation</p>
+      <p>{{allowNewServer}}</p>
+      <hr/>
+      <p class="heading">Property Binding</p>
+      <p [innerText]="allowNewServer"></p>
+    </div>
+  </div>
+</div>
+
 <app-server></app-server>
 <app-server></app-server>
