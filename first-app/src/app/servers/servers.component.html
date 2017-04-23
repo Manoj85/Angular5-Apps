@@ -1,13 +1,11 @@
-<div class="btn btn-primary" [attr.disabled]="!allowNewServer">Add Server</div>
+<div class="btn btn-primary"
+     [attr.disabled]="!allowNewServer"
+     (click)="onCreateServer()">Add Server</div>
 
 <div class="container">
   <div class="row">
     <div class="col-xs-4">
-      <p class="heading">String Interpolation</p>
-      <p>{{allowNewServer}}</p>
-      <hr/>
-      <p class="heading">Property Binding</p>
-      <p [innerText]="allowNewServer"></p>
+      <p>{{serverCreationStatus}}</p>
     </div>
   </div>
 </div>
