@@ -14,13 +14,8 @@
      [disabled]="!allowNewServer"
      (click)="onCreateServer()">Add Server</button>
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-4">
-      <p>{{serverCreationStatus}}</p>
-    </div>
-  </div>
-</div>
+<!--<p>{{serverCreationStatus}}</p>-->
+<p *ngIf="serverCreated" class="note">Server was created! Server Name is {{serverName}}</p>
 
 <app-server></app-server>
 <app-server></app-server>

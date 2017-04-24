@@ -8,3 +8,9 @@
   font-weight: bold;
   color: dodgerblue;
 }
+
+p.note {
+  background-color: violet;
+  font-size: 15px;
+  font-weight: 400;
+}
